@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        doc
+    </head>
+    <body>
+        <from action="details.php" method="POST">
+            <label for="username">username:</label>
+            <input type="text" id="username" placeholder="hulk" minlength="6" maxlength="10" >
+            <br>
+            <br>
+            <label for="password">password:</label>
+            <input type="password" id="password"  minlength="6" maxlength="10" ><br>
+            <br>
+            <label for="phone">phn no:</label>
+            <input type="tel" id="phone" placeholder="122-456-6546" pattern="[0-9]{3} [0-9]{3} [0-9]{3}"><br>
+
+            <label for="bday">bday</label>
+            <input type="date" id="bday"><br>
+            <label for="quantity">quantity</label>
+            <input type="num" id="quantity" min="1" max="99" value="1"><br>
+            <lable for="title">title</lable>
+            <lable for="Mr.">Mr.</lable>
+            <input type="radio" id="Mr." value="Mr." name="title">
+            <lable for="Mrs.">Mrs.</lable> 
+            <input type="radio" id="Mrs." valur="Mrs." name="title">
+            <lable for="PhD.">PhD.</lable>
+            <input type="radio" id="PhD." valur="PhD." name="title"><br>
+
+            <lable for="payment">payment</lable>
+            <select id="payment">
+                <option value="visa">visa</option>
+                <option value="mastercard">mastercard</option>
+                <option value="giftcard">giftcard</option>
+            </select><br>
+
+            <lable for="subscribe">subscribe</lable>
+            <input type="checkbox" id="subscribe"><br>
+
+            <lable for="comment">comment</lable>
+            <textarea id="comment" rows="3" cols="20"></textarea><br>
+            <input type="reset"><br>
+            <input type="submit">
+
+        </from>
+    </body>
+</html>
